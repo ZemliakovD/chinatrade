@@ -1675,3 +1675,159 @@ ol {
 .services-item{
     background-image: url(../img/services-item-bg.png);
 }
+
+.page-content img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.page-content h2{
+    color: #1C1F35;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+
+.page-content p{
+    color: #666C89;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.523%;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.page-content p:nth-child(5){
+    margin-bottom: 100px;
+}
+
+.page-content-advant{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.content-advant-list{
+    width: 40%;
+    margin-right: 72px;
+}
+
+.content-advant-list h2{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #1C1F35;
+    margin-bottom: 12px;
+}
+
+.content-advant-list p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 141.523%;
+    color: #666C89;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.content-advant-list ul li{
+    color: #1C1F35;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.content-advant-list ul li:last-child{
+    margin-bottom: 0;
+}
+
+.page-content-banner{
+    width: 60%;
+}
+
+.page-content-banner img{
+    width: 100%;
+}
+
+.page-content-connect{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+
+.content-connect-banner{
+    width: 60%;
+    margin-right: 65px;
+}
+
+.content-connect-banner img{
+    width: 100%;
+}
+
+.content-connect-text{
+    width: 40%;
+}
+
+.contacts-bg{
+    background-image: url(../img/contacts-bg.jpg);
+}
+
+.complex-bg{
+    background-image: url(../img/complex.jpg);
+}
+
+.complex p:nth-child(5){
+    margin-bottom: 20px;
+}
+
+.complex span{
+    display: block;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.complex p:last-child{
+    margin-bottom: 100px;
+}
+
+.complex ul{
+    margin-bottom: 25px;
+    list-style: disc;
+    padding-left: 35px;
+}
+
+.supply-bg{
+    background-image: url(../img/supply.jpg);
+}
+
+.verification-bg{
+    background-image: url(../img/verification.jpg);
+}
+
+.control-bg{
+    background-image: url(../img/manufacture.jpg);
+}
+
+.cargo-bg{
+    background-image: url(../img/consolidation.jpg);
+}
+
+.primer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.primer a{
+    width: 33%;
+    display: block;
+}
