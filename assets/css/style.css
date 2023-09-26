@@ -2138,3 +2138,171 @@ ol {
     font-weight: 600;
     line-height: normal;
 }
+
+.assortiment{
+    background-image: url(../img/goods-bg.jpg);
+}
+
+.toys-innner h2{
+    color: #1C1F35;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 26px;
+}
+
+.toys{
+    background: #f4f4f4;
+    margin-bottom: 160px;
+}
+
+.toys-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.toys-content p{
+    color: #666C89;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.523%;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.toys-content ul{
+    list-style: disc;
+    margin-bottom: 20px;
+    padding-left: 35px;
+}
+
+.toys-content img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.toys-card{
+    margin-bottom: 40px;
+    width: 33%;
+    max-width: 364px;
+}
+
+.toys-card a{
+    display: block;
+}
+
+.toys-card img{
+    width: 100%;
+}
+
+.toys-info{
+    background: #1C1F35;
+    margin-top: -4px;
+}
+
+.toys-info a{
+    padding-top: 42px;
+    padding-bottom: 20px;
+    padding-left: 34px;
+    padding-right: 34px;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    min-height: 110px;
+}
+
+.toys-info p{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.523%;
+    padding-bottom: 20px;
+    padding-left: 34px;
+    padding-right: 34px;
+    min-height: 120px;
+    text-align: justify;
+}
+
+.goods-about{
+    margin-bottom: 50px;
+}
+
+.goods-about-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods-about-banner{
+    width: 50%;
+    margin-right: 60px;
+}
+
+.goods-about-banner img{
+    width: 100%;
+}
+
+.goods-about-info{
+    width: 50%;
+}
+
+.goods-about-info h2{
+    color: #1C1F35;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
+.goods-about-info p{
+    color: #666C89;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.523%;
+    margin-bottom: 62px;
+}
+
+.goods-about-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods-icons-item{
+    width: 50%;
+}
+
+.goods-icons-item{
+    margin-bottom: 11px;
+}
+
+.goods-icons-item h3{
+    color: #1C1F35;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
+.goods-icons-item p{
+    color: #666C89;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.523%;
+    max-width: 230px;
+}
+
+.goods-gallery{
+    margin-bottom: 100px;
+}
