@@ -81,6 +81,17 @@ ol {
     margin-bottom: 5px;
 }
 
+.select__list{
+    background: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+.select__list option{
+    color: #000;
+}
+
 .main {
     background-image: url(../img/main-bg.jpg);
     background-repeat: no-repeat;
@@ -141,15 +152,15 @@ ol {
 }
 
 .header-button {
-    color: #23212A;
+    color: #fff;
     text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 135.023%;
     padding: 28px 52px;
-    border: 3px solid #fff;
-    background: #fff;
+    border: 3px solid #e21f2f;
+    background: #e21f2f;
     text-transform: uppercase;
     transition: all .5s;
 }
@@ -325,7 +336,7 @@ ol {
 }
 
 .solution-label {
-    max-width: 70px;
+    max-width: fit-content;
     margin-bottom: 12px;
 }
 
@@ -377,6 +388,7 @@ ol {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 0;
 }
 
 .solution-banner {
@@ -398,8 +410,8 @@ ol {
 .deliver {
     display: flex;
     align-items: center;
-    padding-right: 50px;
-    padding-left: 85px;
+    padding-right: 25px;
+    padding-left: 30px;
     padding-top: 46px;
     padding-bottom: 38px;
     border-right: 1px solid #d4d4d4;
@@ -435,8 +447,8 @@ ol {
 .clients {
     display: flex;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 85px;
+    padding-left: 25px;
+    padding-right: 30px;
     padding-top: 46px;
     padding-bottom: 38px;
     border-top: 1px solid #d4d4d4;
@@ -606,10 +618,12 @@ ol {
 
 .feed-left {
     background: #f4f4f4;
+    width: 50%;
 }
 
 .feed-right {
     background: #091242;
+    width: 50%;
 }
 
 .feed-name {
@@ -836,7 +850,7 @@ ol {
     border-left: 4px solid #FFB629;
 }
 
-.goods-inner h2 {
+.goods-wrapper h2 {
     color: #1C1F35;
     text-align: center;
     font-family: Rubik;
@@ -875,7 +889,7 @@ ol {
     color: #fff;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .goods-card-info p {
@@ -885,6 +899,7 @@ ol {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    min-height: 75px;
 }
 
 .goods-card-info span {
@@ -961,7 +976,7 @@ ol {
 
 .contscts-label {
     background: rgba(232, 232, 232, 0.10);
-    max-width: 76px;
+    max-width: fit-content;
     margin-bottom: 13px;
 }
 
@@ -1693,7 +1708,7 @@ ol {
 }
 
 .page-content p {
-    color: #666C89;
+    color: #000;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1729,15 +1744,20 @@ ol {
 .content-advant-list p {
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 141.523%;
-    color: #666C89;
+    color: #000;
     text-align: justify;
     margin-bottom: 40px;
 }
 
+.content-advant-list ul{
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
 .content-advant-list ul li {
-    color: #1C1F35;
+    color: #000;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -1976,7 +1996,7 @@ ol {
     margin-bottom: 100px;
 }
 
-.cost-block h2 {
+.cost-block h2, .goods h2 {
     color: #1C1F35;
     text-align: center;
     font-size: 35px;
@@ -1986,8 +2006,13 @@ ol {
     margin-bottom: 65px;
 }
 
+.goods h2{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
 .cost-block p {
-    color: #666C89;
+    color: #000;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -2114,11 +2139,13 @@ ol {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 90px;
+    flex-wrap: wrap;
 }
 
 .goods-item {
-    width: 33%;
-    margin-right: 30px;
+    width: 30%;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .goods-item:last-child{
@@ -2306,3 +2333,36 @@ ol {
 .goods-gallery{
     margin-bottom: 100px;
 }
+
+.suvenir h1{
+    margin-bottom: 20px;
+}
+
+.goods p{
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.523%;
+    margin-bottom: 20px;
+    text-align: justify;
+    min-height: 50px;
+}
+
+
+.goods ul{
+    list-style-type: disc;
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+
+.goods ul li{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
