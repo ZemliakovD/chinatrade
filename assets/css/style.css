@@ -892,16 +892,6 @@ ol {
     align-items: flex-start;
 }
 
-.goods-card-info p {
-    color: #FFF;
-    font-family: Rubik;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    min-height: 75px;
-}
-
 .goods-card-info span {
     color: #FFF;
     font-size: 16px;
@@ -2366,3 +2356,12 @@ ol {
     margin-bottom: 10px;
 }
 
+.goods-card-info p {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    min-height: 75px;
+}
