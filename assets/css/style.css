@@ -2366,3 +2366,7 @@ ol {
     min-height: 75px;
     text-align: left;
 }
+
+.goods-label p{
+    min-height:fit-content; 
+}
